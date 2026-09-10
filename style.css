@@ -114,7 +114,7 @@
     position: relative;
     overflow: hidden;
     border-bottom: 1px solid var(--edge);
-    background: url('fundo_inicio.png') no-repeat center center / cover fixed;
+    background: url('https://github.com/lincoln2004/contfit-university-project/blob/main/fundo_inicio.png') no-repeat center center / cover fixed;
   }
 
   .hero-grid{
