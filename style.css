@@ -20,6 +20,9 @@
     font-family: 'Barlow', sans-serif;
     font-size: 17px;
     line-height: 1.6;
+
+    scroll-snap-type: y mandatory; 
+    scroll-behavior: smooth;
   }
 
   h1, h2, h3, .display{
@@ -188,7 +191,9 @@
   }
 
   /* ---------- SECTION HEADERS ---------- */
-  section{ padding: 88px 0; }
+  section{ padding: 88px 0; 
+    scroll-snap-align: start;
+  }
   section.tight{ padding: 64px 0; }
 
   .sec-head{
