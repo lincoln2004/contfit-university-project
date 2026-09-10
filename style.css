@@ -114,7 +114,7 @@
     position: relative;
     overflow: hidden;
     border-bottom: 1px solid var(--edge);
-    background: url('fundo inicio.png') no-repeat center center / cover fixed;
+    background: url('fundo_inicio.png') no-repeat center center / cover fixed;
   }
 
   .hero-grid{
