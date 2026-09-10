@@ -1,7 +1,7 @@
 :root{
-    --bg: #121410;
-    --bg-panel: #1B1E16;
-    --bg-panel-2: #20241A;
+    --bg: rgba(16, 18, 20, 0.8);
+    --bg-panel: rgba(16, 18, 20, 0.8);
+    --bg-panel-2: rgba(16, 18, 20, 0.8);
     --edge: rgba(246,243,231,0.09);
     --ink: #F5F2E6;
     --ink-dim: #ADA994;
@@ -55,7 +55,7 @@
     position: sticky;
     top: 0;
     z-index: 50;
-    background: rgba(18,20,16,0.88);
+    background: rgba(16, 18, 20, 0.4);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--edge);
   }
@@ -114,7 +114,7 @@
     position: relative;
     overflow: hidden;
     border-bottom: 1px solid var(--edge);
-    background: url('https://github.com/lincoln2004/contfit-university-project/blob/main/image.png') no-repeat center center / cover fixed;
+    background: url('image.png') no-repeat center center / cover fixed;
   }
 
   .hero-grid{
